@@ -9,18 +9,17 @@
 int main(void)
 
 {
-	char ch;
-	char bn;
+	char lower;
+	char upper;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-
+	for (lower = 'a'; lower <= 'z'; lower++)
 	{
-		putchar(ch);
+		putchar(lower);
 	}
 
-	for (bn = 'A'; bn <= 'Z'; ch++)
+	for (upper = 'A'; upper <= 'Z'; upper++)
 	{
-		putchar(bn);
+		putchar(upper);
 	}
 
 	putchar('\n');
