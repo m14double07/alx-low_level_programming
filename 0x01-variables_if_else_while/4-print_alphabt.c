@@ -6,23 +6,25 @@
 *Return: 0 at success
 */
 
-
 int main(void)
 
 {
-	char ch;
+	char a, e, q;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	e = 'e';
+	q = 'q';
+
+	for (a = 'a'; a <= 'z'; a++)
 
 	{
-	if (ch != 'q' && ch != 'e')
-	}
+	for
+		(a != e && a != q)
 
-	{
-		putchar(ch);
-	}
+		putchar(a); }
+
 
 	putchar('\n');
 
 	return (0);
+
 }
