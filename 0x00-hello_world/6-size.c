@@ -10,7 +10,7 @@ int main(void)
 
 {
 
-	int  ch[5] = {1, 4, 8, 8, 4};
+	int  ch[5] = {1, 4, 4, 8, 4};
 
 	printf("Size of a char: %d byte(s)\n", ch[0]);
 
