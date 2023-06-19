@@ -9,9 +9,7 @@
 int main(void)
 
 {
-	char speech[] = "with proper grammar, but the outcome is a piece of art,";
-
-	printf("%s\n", speech);
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 
 	return (0);
 }
