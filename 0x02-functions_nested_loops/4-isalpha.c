@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
-*-isalpha - checks for upper or lower cases
+*_isalpha - checks for upper or lower cases
 *Return: 1 for alphabetic character or 0 for anything else
+*@c: the character to be checked
 */
 
 
