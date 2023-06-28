@@ -1,6 +1,9 @@
 #include "main.h"
 
-
+/**
+*_puts - Entry into program
+*@str: String to be printed
+*/
 void _puts(char *str)
 
 {
