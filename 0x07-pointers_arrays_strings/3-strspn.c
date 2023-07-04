@@ -3,27 +3,21 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int len = 0;
-	int found;
+	int found = 0;
 
 	while (*s != '\0')
 	{
-	found = 0;
-	while (*accept != '\0')
-	{
-	if (*s == *accept)
-	{
-	found++;
-	break;
+		while (*accept != '\0')
+		{
+			if (*s == accept[found])
+		{	
+			len++;
+			break;
+		}
+			else if (accept[found + 1] == '\0')
+			return (len);
+		}
 	}
-	accept++;
-	}
-	if (!found)
-	{
-	break;
-	}
-	len++;
 	s++;
-	}
-
 	return (len);
 }
