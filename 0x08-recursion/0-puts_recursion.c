@@ -3,15 +3,12 @@
 void _puts_recursion(char *s)
 
 {
-	int i = 0;
+	if (*s)
 
-	if (s[i] != '\0')
 	{
-	return ('\n');
+	_putchar(*s);
+	_puts_recursion(s + 1);
 	}
 	else
-	_puts(s[i]);
-	i++;
-
-	_puts_recursion(s);
+	_putchar('\n');
 }
