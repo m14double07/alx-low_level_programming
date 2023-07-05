@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+*_puts_recursion - Print a recursive string
+*@s: String to print
+*Return: String
+*/
 void _puts_recursion(char *s)
 
 {
