@@ -10,23 +10,17 @@
 
 int main(int argc, char *argv[])
 {
-	int i = 0, a = 0, b = 0, c = 0;
+	int i = 0, j = 0;
 
-	while (i < argc)
+	if (argc == 3)
 	{
-	if (i == 0)
+	i += atoi(argv[1]);
+	j += atoi(argv[2]);
+	printf("%d\n", i * j);
+	}
+	else
 	{
 	printf("Error\n");
 	}
-
-	else
-	a =+ atoi(argv[i]);
-	b =+ atoi(argv[i + 1]);
-	c = a * b;
-
-	printf("%d\n", c);
-	}
-	i++;
-
 	return (0);
 }
