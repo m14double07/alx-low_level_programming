@@ -1,16 +1,13 @@
 #include <stdio.h>
 
+/**
+*main - Prints the counts of argc
+*@argc: Counter of arguments
+*@argv: Array of strings
+*Return: 0
+*/
 int main(int argc, char *argv[])
-
 {
-	int i = 0;
-
-
-	if (argv[i])
-	{
-	while (i < argc)
-	printf("%d\n", i);
-	i++;
-	}
+	printf("%d\n", argc - 1);
 	return (0);
 }
