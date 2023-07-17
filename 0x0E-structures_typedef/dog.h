@@ -11,9 +11,9 @@
 struct dog
 {
 	char *name;
-	int age;
+	float age;
 	char *owner;
-}
+};
 
 void first_dog(struct dog *d, char *name, int age, char *owner);
 void print_dog(struct dog *d);
