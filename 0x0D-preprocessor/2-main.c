@@ -1,12 +1,14 @@
-#include "main.h"
 #include <stdio.h>
-#include <unistd.h>
 
-int  main()
+/**
+*main - Prints file name
+*Return: File name
+*/
+
+int  main(void)
 {
-	char *c= "__file__";
 
-	_putchar(*c);
+	printf("%s\n", __FILE__);
 
 	return (0);
 }
