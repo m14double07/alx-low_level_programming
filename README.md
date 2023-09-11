@@ -1,1 +1,2 @@
-This directory is my debugging directory in ALX
+What are structures, when, why and how to use them
+How to use typedef
